@@ -48,9 +48,26 @@ def filter_events(numbers):
     for num in numbers:
         if num % 2 == 0:
             even.append(num)
-            return num
+#             return num
         
-def list_stats(numbers):
-    for num in numbers:
-        if not numbers:
-            
+# def list_stats(numbers):
+#     for num in numbers:4
+#         if not numbers:
+
+
+def create_username(first_name, last_name):
+    combined_username = first_name + last_name
+    return combined_username.lower()
+    
+
+def check_email(email):
+    email = input("Enter an email: ")
+    if "@" in email.lower and (".com"):
+        return True
+    else:
+        return False
+    
+
+def create_slug(title):
+    changed_title = title.lower() and title.append() 
+    
