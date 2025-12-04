@@ -34,15 +34,15 @@ def calculate_remaining(total_seconds, played_seconds):
         >>> calculate_remaining(300, 300)
         0
     """
-total_seconds = 0
-played_seconds = 0
+# total_seconds = 0
+# played_seconds = 0
     # TODO: Write your code here (replace 'pass')
     # Hint: Calculate total - played, but don't return negative numbers
 
-    remaining  = total_seconds - played_seconds
-    if remaining < 0:
-        return 0
-    return remaining
+    # remaining  = total_seconds - played_seconds
+    # if remaining < 0:
+    #     return 0
+    # return remaining
 
 
 # =============================================================================
