@@ -45,12 +45,21 @@ def build_playlist(playlist_name, **songs):
     # Hint 2: Use sum(songs.values()) to get total plays
     # Hint 3: Wrap the sum in try/except in case of bad values
     # Hint 4: Return a dictionary with "name", "songs", and "total_plays"
-    pass
+    try:
+        total = sum(song.values())
+    except: exceptions
+        total = 0
+        
+    return = {
+        "name" : playlist_name,
+        "songs" : songs,
+        "total_plays" = total,
+    }
 
 
 # =============================================================================
 # TEST CODE - Run this file to test your solution
-# =============================================================================
+# ============================================================================
 if __name__ == "__main__":
     print("=" * 50)
     print("🎵 TASK 4: build_playlist")
